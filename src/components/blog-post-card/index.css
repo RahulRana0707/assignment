@@ -1,0 +1,45 @@
+.blog_post_card {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.blog_post_card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.blog_post_card_date {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.blog_post_card_title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.blog_post_card_snippet {
+  font-size: 0.9375rem;
+  color: #374151;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.blog_post_card_link {
+  font-size: 0.9375rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s ease-in-out;
+}
+
+.blog_post_card_link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+

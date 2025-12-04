@@ -1,0 +1,55 @@
+.home_page_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.home_page_title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+  padding: 0;
+}
+
+.home_page_info_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.home_page_latest_posts {
+  margin-top: 1rem;
+}
+
+.home_page_latest_posts_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 1.5rem 0;
+}
+
+.home_page_posts_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home_page_posts_list {
+    grid-template-columns: 1fr;
+  }
+
+  .home_page_title {
+    font-size: 1.75rem;
+  }
+
+  .home_page_latest_posts_title {
+    font-size: 1.25rem;
+  }
+}
+

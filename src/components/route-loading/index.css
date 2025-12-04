@@ -1,0 +1,23 @@
+.route_loading_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 60vh;
+}
+
+.route_loading_icon {
+  color: #2563eb;
+  animation: route_loading_rotate 1s linear infinite;
+}
+
+@keyframes route_loading_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

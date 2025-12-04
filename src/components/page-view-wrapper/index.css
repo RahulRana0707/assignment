@@ -1,0 +1,14 @@
+.page_view_wrapper_area {
+  width: 100%;
+  overflow-y: auto;
+  flex-grow: 1;
+  background-color: #f8f8f8;
+}
+
+.page_view_wrapper_container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 90%;
+  margin: 0 auto;
+}
+

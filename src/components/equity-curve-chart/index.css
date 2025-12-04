@@ -1,0 +1,97 @@
+.equity_curve_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.equity_curve_header_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.equity_curve_header_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.equity_curve_title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.equity_curve_subtitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.equity_curve_reset {
+  background: none;
+  border: none;
+  color: var(--color-accent, #14b8a6);
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0;
+  text-decoration: underline;
+  font-family: inherit;
+}
+
+.equity_curve_reset:hover {
+  opacity: 0.8;
+}
+
+.equity_curve_date_filters {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 0;
+}
+
+.equity_curve_date_input {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.equity_curve_date_input label {
+  font-size: 0.875rem;
+  color: #111827;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.equity_curve_date_input input {
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  color: #111827;
+  background-color: #fff;
+  min-width: 140px;
+}
+
+.equity_curve_date_input input:focus {
+  outline: none;
+  border-color: var(--color-accent, #14b8a6);
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .equity_curve_date_filters {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
